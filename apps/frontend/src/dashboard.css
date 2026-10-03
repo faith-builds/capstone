@@ -1152,7 +1152,7 @@ body.dashboard-body {
         margin: 0 -14px 18px;
         padding: 0 12px;
         flex-wrap: nowrap;
-        gap: 8px;
+        gap: 5px;
         justify-content: space-between;
     }
     .topbar-left {
@@ -1165,7 +1165,7 @@ body.dashboard-body {
     }
     .topbar-title {
         font-size: 0.95rem;
-        white-space: nowrap;
+        white-space: wrap;
         letter-spacing: -0.01em;
     }
     .topbar-search {
@@ -1207,13 +1207,13 @@ body.dashboard-body {
         display: none; /* Keep topbar clean and single-row on mobile */
     }
     
-    /* Action Header: single line, no wrapping */
+    /* Action Header: wrapping */
     .action-header {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         gap: 8px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         margin-bottom: 16px;
     }
     .action-header .subtext {
@@ -1221,12 +1221,12 @@ body.dashboard-body {
     }
     .section-heading {
         font-size: 0.925rem;
-        white-space: nowrap;
+        white-space: wrap;
         letter-spacing: -0.01em;
     }
     .action-buttons-group {
         width: auto;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 6px;
         flex-shrink: 0;
     }
@@ -1235,7 +1235,7 @@ body.dashboard-body {
         padding: 6px 10px;
         font-size: 0.75rem;
         gap: 4px;
-        white-space: nowrap;
+        white-space: wrap;
         border-radius: 6px;
     }
     
@@ -1272,18 +1272,18 @@ body.dashboard-body {
         align-items: center;
         justify-content: space-between;
         gap: 12px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
     .profile-actions-group {
         width: auto;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 6px;
         flex-shrink: 0;
     }
     .profile-actions-group button {
         padding: 6px 10px;
         font-size: 0.75rem;
-        white-space: nowrap;
+        white-space: wrap;
     }
     
     .contact-details-grid {
@@ -1354,4 +1354,3 @@ body.dashboard-body {
         justify-content: center;
     }
 }
-
