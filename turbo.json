@@ -1,0 +1,17 @@
+{
+  "$schema": "https://turbo.build",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**", "build/**"],
+      "inputs": [".env*"] 
+    },
+    "@repo/api#build": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}
